@@ -1,0 +1,57 @@
+<!--
+     Name: Jacob Schuster 
+     CS 132 Spring 2024
+     Date: May 22nd, 2024
+     This is my index.html page that is the homepage to my e-commerce website.
+
+    This page links to each individual html page for every plant. I know it can be inconvenient to have to make a new html page
+    for every new product, but I thought that this allowed more freedom in making each page unique and customizing for each 
+    plant.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jacob's Plants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
+    <script src="filter.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../imgs/plant.png" alt="Logo">
+            </div>
+            <div class="title">
+                <h1>Jacob's Plants</h1>
+            </div>
+            <nav>
+                <a href="index.html">Our Plants</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="promotions.html">Promotions</a>
+                <a href="cart.html"><img src="../imgs/cart-icon.png" alt="Cart"></a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="filter-options">
+            <label for="filter">Filter:</label>
+            <select id="filter" name="filter">
+                <option value="all">All</option>
+                <option value="indoor">Indoor</option>
+                <option value="outdoor">Outdoor</option>
+            </select>
+        </div>
+
+        <div class="current-shop"></div>
+        <!-- See credits.txt for image sources -->
+        <div id="message-area"></div>
+        
+    </div>
+</body>
+</html>

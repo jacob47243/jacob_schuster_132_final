@@ -1,0 +1,182 @@
+body {
+  font-family: "Tinos", serif;
+  background-color: #b8d8be;
+  padding: 0;
+}
+
+header, form button, .plant-card button {
+  background-color: #5C4033;
+}
+
+header {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.navbar, .current-shop, form, .plant-card {
+  display: flex;
+}
+
+.navbar, .plant, .plant-card  {
+  align-items: center;
+}
+
+.navbar, .current-shop, .plant-card {
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.title h1, body {
+  margin: 0;
+}
+
+.title h1, .navbar nav a {
+  color: #FFFFFF;
+}
+
+.title h1 {
+  font-size: 24px;
+}
+
+.navbar nav a, .plant p, form label, .form-message, .success, #message-area {
+  font-weight: bold;
+}
+
+.navbar nav a {
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  color: #b8d8be;
+}
+
+.navbar nav a img {
+  height: 30px;
+}
+
+.selection, .plant-detail {
+  padding: 20px;
+}
+
+.current-shop, form, #cart-list {
+  gap: 10px;
+}
+
+.current-shop {
+  flex-wrap: wrap;
+}
+
+.plant, .plant-detail {
+  text-align: center;
+}
+
+.plant, .plant-card {
+  background-color: white;
+}
+
+
+.plant, form button, .plant-card{
+  padding: 10px;
+}
+
+.plant, .plant-detail, .plant-card, .plant-card img{
+  border-radius: 5px;
+} 
+
+.plant, form, #cart-list  {
+  flex-direction: column;
+}
+
+.plant {
+  flex: 1 0 30%;
+  margin: 10px;
+}
+
+.plant img, .plant-detail .image{
+  width: 100%;
+
+}
+
+.plant img, .plant-detail .image{
+  height: 200px;
+}
+
+.plant img, .plant-detail .image, .plant-card img {
+  object-fit: cover;
+}
+
+.plant img, .plant-detail .image{
+  max-width: 250px;
+}
+
+.plant p {
+  margin-top: 5px;
+  color: #333333;
+}
+
+.plant-detail {
+  background-color: #FFFFFF;
+}
+
+
+form input, form textarea, .plant-card {
+    border: 1px solid #ccc;
+}
+
+form input, form textarea, .plant-card button {
+  border-radius: 4px;
+}
+
+form input, form textarea {
+  padding: 8px;
+}
+
+form button, .plant-card button {
+  color: white;
+}
+
+form button, .plant-card button {
+  cursor: pointer;
+}
+
+form button:hover, .plant-card button:hover {
+  background-color: #3e2b24;
+}
+
+.form-message{
+  margin-top: 10px;
+}
+
+.plant-card img {
+  height: 60px;
+  width: 60px;
+}
+
+.plant-card h3, .navbar nav a {
+  margin: 0 10px;
+}
+
+.plant-card h3 {
+  font-size: 18px;
+}
+
+.plant-card button {
+  padding: 5px 10px;
+}
+
+.success {
+  color: green;
+}
+
+#message-area {
+  margin-top: 20px;
+  color: red;
+}
+

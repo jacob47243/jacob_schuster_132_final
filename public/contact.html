@@ -1,0 +1,55 @@
+<!--
+     Name: Jacob Schuster
+     CS 132 Spring 2024
+     Date: June 13th, 2024
+     This is my contact.html page which creates the form that users can submit
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../imgs/plant.png" alt="Logo">
+            </div>
+            <div class="title">
+                <h1>Jacob's Plants</h1>
+            </div>
+            <nav>
+                <a href="index.html">Our Plants</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="promotions.html">Promotions</a>
+                <a href="cart.html"><img src="../imgs/cart-icon.png" alt="Cart"></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name (required):</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (required):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message (required):</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-message" class="form-message"></div>
+    </div>
+</body>
+</html>

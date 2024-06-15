@@ -1,0 +1,78 @@
+{
+    "bamboo": [
+      "Bamboo is a fast-growing plant that adds a tropical feel to gardens. It prefers well-drained soil and partial shade.",
+      30,
+      "outdoor"
+    ],
+    "cactus": [
+      "This cactus is perfect for a windowsill and requires minimal watering. It's a great addition to any home or office space.",
+      15,
+      "indoor"
+    ],
+    "daffodil": [
+      "Daffodils are cheerful yellow flowers that bloom in early spring. They thrive in full sun or partial shade.",
+      10,
+      "outdoor"
+    ],
+    "fern": [
+      "Ferns are lush, green plants that thrive in shady areas. They require moist, well-drained soil.",
+      20,
+      "outdoor"
+    ],
+    "hydrangeas": [
+      "Hydrangeas are popular for their large and colorful flower heads. They prefer partial sun and moist soil.",
+      25,
+      "outdoor"
+    ],
+    "ivy": [
+      "Ivy is a hardy climbing plant that grows well in shady areas. It needs moist, well-drained soil.",
+      15,
+      "outdoor"
+    ],
+    "lavender": [
+      "Lavender is known for its fragrant purple flowers. It needs full sun and well-drained soil.",
+      20,
+      "indoor"
+    ],
+    "lilacs": [
+      "Lilacs are known for their beautiful and fragrant flowers. They thrive in well-drained soil and full sunlight.",
+      25,
+      "indoor"
+    ],
+    "lily": [
+      "Lilies are elegant flowers that come in many colors. They grow best in well-drained soil and full to partial sun.",
+      18,
+      "indoor"
+    ],
+    "marigold": [
+      "Marigolds are bright, cheerful flowers that repel pests. They thrive in full sun and well-drained soil.",
+      10,
+      "outdoor"
+    ],
+    "orchid": [
+      "Orchids are exotic plants with unique flowers. They require indirect light and high humidity.",
+      35,
+      "indoor"
+    ],
+    "rose": [
+      "Roses are classic garden plants with a variety of colors and fragrances. They need full sun and well-drained soil.",
+      25,
+      "indoor"
+    ],
+    "sunflower": [
+      "Sunflowers are tall and bright, following the sun throughout the day. They need full sun and well-drained soil.",
+      15,
+      "outdoor"
+    ],
+    "tulip": [
+      "Tulips are spring-blooming perennials with vibrant colors. They prefer full sun and well-drained soil.",
+      12,
+      "outdoor"
+    ],
+    "venus": [
+      "Venus Fly Traps are fascinating carnivorous plants. They need a humid environment and lots of sunlight.",
+      20,
+      "indoor"
+    ]
+  }
+  
